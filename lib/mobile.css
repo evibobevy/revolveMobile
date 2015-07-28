@@ -1,0 +1,468 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) {
+#landscape {
+    display: none;
+    visibility: hidden;
+}
+header.white {
+    display: none;
+}
+header.white>.black {
+    display: none;
+}
+header.white>.logo {
+    display: none;
+}
+header.mobile {
+    visibility: visible;
+}
+header.mobile>section.mobile {
+    visibility: visible;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-image: url(/images/revolve_mobile_coming_soon.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:#fff;
+    z-index:100;
+    display:block;
+}
+.iPhone header.mobile>section.mobile {
+    display:block;
+    visibility: visible;
+}
+header.mobile>section.mobile>#header>.clear {
+    clear:both;
+}
+header.mobile>section.mobile>#header {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #000;
+}
+header.mobile>section.mobile>#header>img {
+    width: 45%;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+header.mobile>section.mobile>#nav {
+    background-color: #000;
+}
+header.mobile>section.mobile>#nav>ul#mobileMenu>#social {
+    width: 100%;
+    height:100px;   
+    padding-left: 10%;
+}
+header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a>img {
+    height:auto;
+    width:6%;
+    padding-right: 12%;
+    padding-top: 5%
+}
+header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a.facebook>img {
+    width:3%;
+}
+a#facebook> img {
+    width: 3%;
+    padding-left: 10%;
+}
+header.mobile>section.mobile>.mobile_button {
+    position:absolute;
+    top:60%;
+    left: 50%;  
+    width:30px; 
+    height:30px;    
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+header.mobile>section.mobile>.mobile_button#button1 {
+    margin-left: -60px;
+    background-image: url(/images/mobile_buttons/twitter.png);
+}
+header.mobile>section.mobile>.mobile_button#button2 {
+    margin-left: -30px;
+    background-image: url(/images/mobile_buttons/facebook.png);
+}
+header.mobile>section.mobile>.mobile_button#button3 {
+    margin-left: 0px;
+    background-image: url(/images/mobile_buttons/linkedin.png);
+}
+header.mobile>section.mobile>.mobile_button#button4 {
+    margin-left: 35px;
+    background-image: url(/images/mobile_buttons/youtube.png);
+}
+.iPhone #fullpage>.section>.fp-tableCell>.content {
+    width: 90%;
+    margin: 44% 5% 5% 5%;
+    min-width: 90%;
+}
+.iPhone .about h1, .iPhone .capabilities h1, .iPhone .clients h1, .iPhone .contact h1 {
+    margin: 5% auto;
+    margin-bottom: 1%;
+    font-size: 28px;
+}
+.iPhone .about p, .iPhone .capabilities p, .iPhone .clients p, .iPhone .contact p {
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+#fullpage>.section.home>.fp-tableCell>#logo {
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:35%;
+    left:25%;
+    background-image: url(../images/revolve_logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    display:block;
+} 
+#fullpage>.section>.fp-tableCell>.content>.column.left {
+    clear: left;
+    margin-left: 0%;
+    width: 17%;
+    padding-right: 2.5em;
+    margin-right: 0px;
+    display: none;
+}
+#fullpage>.section>.fp-tableCell>.content>.column {
+    position: relative;
+    float: left;
+    clear: none;
+    /* min-height: 219px; */
+    margin-top: 0px;
+}
+#fullpage>.section>.fp-tableCell>.content>.column h2 {
+    font-size: 15px;
+    margin-left: 2em;
+    display: none;
+}
+#fullpage>.section>.fp-tableCell>.content>.column.right {
+    border-left: 0px solid black;
+    padding-left: 5%;
+    width: 95%;
+    padding-top: 5%;
+
+}
+.iPhone #fullpage>.section>.fp-tableCell>.content>.column p {
+    font-size: 12px;
+    line-height: 41px;
+    padding-top: 2%;
+    margin: 0% 0 3% 0;
+    padding: 0% 2%;
+    display: inline;
+
+} 
+.iPhone #fullpage>.section>.fp-tableCell>.content>.column span {
+    display: inline;
+}       
+#fullpage>.section>.fp-tableCell>.content>.column span {
+    display: inline;
+}
+.clients h1 {
+    position: absolute;
+    left: 0;
+    top: -80px;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}    
+.iPhone #fullpage>.section.clients>.fp-tableCell>.content {
+    width: 90%;
+    margin: 70% 5% 5% 5%;
+    min-width: 90%;
+}
+.iPhone #fullpage>.section.contact>.fp-tableCell>.content {
+    width: 90%;
+    margin: 41% 5% 5% 5%;
+    min-width: 90%;
+}    
+.contact h2 {
+    margin: 0 auto;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 200;
+    font-size: 15px;
+    display: none;
+
+}    
+.iPhone .contact p {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto;
+}
+footer {
+    /* width: 91%; */
+    min-width: 100%;
+    height: 3%;
+    position: relative;
+    top: 96%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    font-size: 10px;
+    text-align: center;
+    color: #666;
+    display: block;
+    z-index: 3;
+} 
+#particles, #particle_overlay {
+    display: none;
+}  
+.left_column {
+    float: left;
+    clear: none;
+    width: 100%;
+} 
+.map {
+    position: relative;
+    float: left;
+    clear: left;
+    height: 16%;
+    width: 100%;
+    margin-left: 0%;
+    min-width: 10px;
+    margin-top: 0px;
+}
+  }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+#landscape {
+    display: none;
+    visibility: hidden;
+}
+header.white {
+	display: none;
+}
+header.white>.black {
+	display: none;
+}
+header.white>.logo {
+	display: none;
+}
+header.mobile {
+    visibility: visible;
+}
+header.mobile>section.mobile {
+    visibility: visible;
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-image: url(/images/revolve_mobile_coming_soon.png);
+	background-position: top center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:#fff;
+	z-index:100;
+	display:block;
+}
+.iPhone header.mobile>section.mobile {
+	display:block;
+    visibility: visible;
+}
+header.mobile>section.mobile>#header>.clear {
+	clear:both;
+}
+header.mobile>section.mobile>#header {
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	background-color: #000;
+}
+header.mobile>section.mobile>#header>img {
+    width: 45%;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+header.mobile>section.mobile>#nav {
+	background-color: #000;
+}
+header.mobile>section.mobile>#nav>ul#mobileMenu>#social {
+	width: 100%;
+	height:100px;	
+	padding-left: 10%;
+}
+header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a>img {
+	height:auto;
+	width:6%;
+	padding-right: 12%;
+	padding-top: 5%
+}
+header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a.facebook>img {
+	width:3%;
+}
+a#facebook> img {
+	width: 3%;
+	padding-left: 10%;
+}
+header.mobile>section.mobile>.mobile_button {
+	position:absolute;
+	top:60%;
+	left: 50%;	
+	width:30px;	
+	height:30px;	
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+header.mobile>section.mobile>.mobile_button#button1 {
+	margin-left: -60px;
+	background-image: url(/images/mobile_buttons/twitter.png);
+}
+header.mobile>section.mobile>.mobile_button#button2 {
+	margin-left: -30px;
+	background-image: url(/images/mobile_buttons/facebook.png);
+}
+header.mobile>section.mobile>.mobile_button#button3 {
+	margin-left: 0px;
+	background-image: url(/images/mobile_buttons/linkedin.png);
+}
+header.mobile>section.mobile>.mobile_button#button4 {
+	margin-left: 35px;
+	background-image: url(/images/mobile_buttons/youtube.png);
+}
+.iPhone #fullpage>.section>.fp-tableCell>.content {
+    width: 90%;
+    margin: 44% 5% 5% 5%;
+    min-width: 90%;
+}
+.iPhone .about h1, .iPhone .capabilities h1, .iPhone .clients h1, .iPhone .contact h1 {
+    margin: 5% auto;
+    margin-bottom: 1%;
+    font-size: 28px;
+}
+.iPhone .about p, .iPhone .capabilities p, .iPhone .clients p, .iPhone .contact p {
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+#fullpage>.section.home>.fp-tableCell>#logo {
+	width:50%;
+	height:50%;
+	position:absolute;
+	top:35%;
+	left:25%;
+	background-image: url(../images/revolve_logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:contain;
+	display:block;
+} 
+#fullpage>.section>.fp-tableCell>.content>.column.left {
+    clear: left;
+    margin-left: 0%;
+    width: 0%;
+    padding-right: 2.5em;
+    margin-right: 0px;
+    display: none;
+}
+#fullpage>.section>.fp-tableCell>.content>.column {
+    position: relative;
+    float: left;
+    clear: none;
+    /* min-height: 219px; */
+    margin-top: 0px;
+}
+#fullpage>.section>.fp-tableCell>.content>.column h2 {
+	font-size: 15px;
+	margin-left: 2em;
+    display: none;
+}
+#fullpage>.section>.fp-tableCell>.content>.column.right {
+    border-left: 0px solid black;
+    padding-left: 5%;
+    width: 95%;
+    padding-top: 5%;
+
+}
+.iPhone #fullpage>.section>.fp-tableCell>.content>.column p {
+    font-size: 12px;
+    line-height: 41px;
+    padding-top: 2%;
+    margin: 0% 0 3% 0;
+    padding: 0% 2%;
+    display: inline;
+
+} 
+.iPhone #fullpage>.section>.fp-tableCell>.content>.column span{
+	display: inline;
+}       
+#fullpage>.section>.fp-tableCell>.content>.column span{
+	display: inline;
+}
+.clients h1 {
+    position: absolute;
+    left: 0;
+    top: -80px;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}    
+.iPhone #fullpage>.section.clients>.fp-tableCell>.content {
+    width: 90%;
+    margin: 70% 5% 5% 5%;
+    min-width: 90%;
+}
+.iPhone #fullpage>.section.contact>.fp-tableCell>.content {
+    width: 90%;
+    margin: 41% 5% 5% 5%;
+    min-width: 90%;
+}    
+.contact h2 {
+    margin: 0 auto;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 200;
+    font-size: 15px;
+    display: none;
+}    
+.iPhone .contact p {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto;
+}
+footer {
+    /* width: 91%; */
+    min-width: 100%;
+    height: 3%;
+    position: relative;
+    top: 96%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    font-size: 10px;
+    text-align: center;
+    color: #666;
+    display: block;
+    z-index: 3;
+} 
+#particles, #particle_overlay {
+	display: none;
+}  
+.left_column {
+    float: left;
+    clear: none;
+    width: 100%;
+} 
+.map {
+	position: relative;
+    float: left;
+    clear: left;
+    height: 16%;
+    width: 100%;
+    margin-left: 0%;
+    min-width: 10px;
+    margin-top: 0px;
+}
+}

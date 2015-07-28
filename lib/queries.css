@@ -1,0 +1,249 @@
+/* ----------- iPhone and 5S ----------- */
+
+/* Portrait */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+#fullpage {
+  visibility:visible;
+}
+#landscape {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait */
+@media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
+
+#fullpage {
+  visibility:visible;
+}
+#landscape {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+
+/* Portrait */
+@media only screen  and (min-device-width: 414px)  and (max-device-width: 736px)  and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) { 
+
+#fullpage {
+  visibility:visible;
+}
+#landscape {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait */
+@media screen  and (device-width: 320px)  and (device-height: 640px)  and (-webkit-device-pixel-ratio: 3)  and (orientation: portrait) {
+
+#fullpage {
+  visibility:visible;
+}
+#landscape {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- Galaxy S5 ----------- */
+
+
+/* Portrait */
+@media screen  and (device-width: 360px)  and (device-height: 640px)  and (-webkit-device-pixel-ratio: 3)  and (orientation: portrait) {
+
+#fullpage {
+  visibility:visible;
+}
+#landscape {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- Nokia Lumia 920 ----------- */
+
+/*Portrait */
+@media only screen and (max-width: 360px) and (orientation : portrait) {
+
+#fullpage {
+  visibility:visible;
+}
+#landscape {
+  visibility: hidden;
+}
+}
+
+/* --------------LANDSCAPE----------*/
+
+
+/* ----------- iPhone and 5S ----------- */
+
+/* landscape */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+#landscape {
+  position: fixed;
+  visibility: visible;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+  width: 90%;
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+
+}
+    
+    #fullpage {
+      visibility: hidden;
+      }
+      }
+
+
+/* ----------- iPhone 6 ----------- */
+
+/* landscape */
+@media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+
+#landscape {
+  position: fixed;
+  visibility: visible;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+  width: 90%;
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+
+}
+#fullpage {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+
+/* landscape */
+@media only screen  and (min-device-width: 414px)  and (max-device-width: 736px)  and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
+
+#landscape {
+  position: fixed;
+  visibility: visible;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+  width: 90%;
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+
+}
+#fullpage {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- Galaxy S4 ----------- */
+
+/* landscape */
+@media screen  and (device-width: 320px)  and (device-height: 640px)  and (-webkit-device-pixel-ratio: 3)  and (orientation: landscape) {
+
+#landscape {
+  position: fixed;
+  visibility: visible;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+  width: 90%;
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+
+}
+#fullpage {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- Galaxy S5 ----------- */
+
+
+/* landscape */
+@media screen  and (device-width: 360px)  and (device-height: 640px)  and (-webkit-device-pixel-ratio: 3)  and (orientation: landscape) {
+
+#landscape {
+  position: fixed;
+  visibility: visible;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+  width: 90%;
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+
+}
+#fullpage {
+  visibility: hidden;
+}
+}
+
+
+/* ----------- Nokia Lumia 920 ----------- */
+
+/*landscape */
+@media only screen and (max-width: 360px) and (orientation : landscape) {
+
+#landscape {
+  position: fixed;
+  visibility: visible;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+  width: 90%;
+  height: 100%;
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+
+}
+#fullpage {
+  visibility: hidden;
+}
+}
