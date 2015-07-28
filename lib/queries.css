@@ -72,7 +72,7 @@
 /* ----------- Nokia Lumia 920 ----------- */
 
 /*Portrait */
-@media only screen and (max-width: 360px) and (orientation : portrait) {
+@media only screen and (max-width: 360px) and (device-height:600px) and (-webkit-device-pixel-ratio: 3) and (orientation : portrait) {
 
 #fullpage {
   visibility:visible;
@@ -225,7 +225,7 @@
 /* ----------- Nokia Lumia 920 ----------- */
 
 /*landscape */
-@media only screen and (max-width: 360px) and (orientation : landscape) {
+@media only screen and (max-width: 360px) and (device-height:600px) and (-webkit-device-pixel-ratio: 3) and (orientation:landscape) {
 
 #landscape {
   position: fixed;
