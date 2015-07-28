@@ -360,14 +360,14 @@ footer {
 	padding: 0% 2%;
 	line-height: 24px;
 }
-#fullpage>.section>.fp-tableCell>.content>.column span {
+#fullpage>.section>.fp-tableCell>.content>.column p span {
 	display: none;
 }
 .iPhone #fullpage>.section>.fp-tableCell>.content>.column p {
 	font-size: 30px;
 	line-height: 30px;
 }
-.iPhone #fullpage>.section>.fp-tableCell>.content>.column span {
+.iPhone #fullpage>.section>.fp-tableCell>.content>.column p span {
 	display: none;
 }
 #fullpage>.section>.fp-tableCell>.content>.column>.image {
@@ -458,6 +458,23 @@ h2 {
 	margin:0;
 	font-size: 40px;
 }
+.about h4 {
+	visibility: hidden;
+}
+.iPhone .about h4 {
+	font-family: 'Gotham A', 'Gotham B';
+    visibility: visible;
+    position: relative;
+    left: 0;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    line-height: 24px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
 .iPhone .about h1 {
 	margin:0;
 	font-size: 60px;
@@ -473,6 +490,13 @@ h2 {
 	font-size: 38px;
 }
 .contact p {
+	margin: 8px 0 0px 0;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 200;
+}
+.contact p span{
+	visibility: hidden;
+	display: none;
 	margin:8px 0 32px 0;
 	font-family: 'Gotham A', 'Gotham B'; 
 	font-weight: 200;
@@ -521,8 +545,13 @@ h2 {
 	text-align:center;
 	width:100%;
 }
-
+.mobileMap {
+	visibility: hidden;
+	display:none;
+}
 .map {
+	visibility: visible;
+	display: block;
 	float:right;
 	clear:none;
 	width:44%;
@@ -575,7 +604,6 @@ h2 {
 	position:absolute;
 	left:0;
 	z-index:2;
-
 	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
