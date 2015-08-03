@@ -58,7 +58,7 @@
 
 
 /* Portrait */
-@media screen  and (device-width: 360px)  and (device-height: 640px)  and (-webkit-device-pixel-ratio: 3)  and (orientation: portrait) {
+@media screen  and (device-width: 360px)  and (device-height: 640px) and (orientation: portrait) {
 
 #fullpage {
   visibility:visible;
@@ -72,7 +72,7 @@
 /* ----------- Nokia Lumia 920 ----------- */
 
 /*Portrait */
-@media only screen and (max-width: 360px) and (device-height:600px) and (-webkit-device-pixel-ratio: 3) and (orientation : portrait) {
+@media only screen and (max-width: 320px) and (device-height:480px) and (orientation : portrait) {
 
 #fullpage {
   visibility:visible;
@@ -81,7 +81,6 @@
   visibility: hidden;
 }
 }
-
 /* --------------LANDSCAPE----------*/
 
 
@@ -90,22 +89,31 @@
 /* landscape */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 #landscape {
+  z-index:100;
   position: fixed;
   visibility: visible;
-  font-size: 2em;
+  font-size: 2em !important;
   text-align: center;
   font-family: sans-serif;
   color: #fff;
   background-color: #000;
-  width: 90%;
+  width: 100%;
   height: 100%;
   padding-top: 20%;
-  padding-left: 5%;
+  padding-left: 0%;
   padding-right: 5%;
   margin: 0 auto;
   display: block;
 }
     
+    .mobileMap {
+      visibility: hidden;
+      display:none;
+    }
+    .map {
+      visibility: hidden;
+      display: none;
+    }
     #fullpage {
       visibility: hidden;
       }
@@ -118,20 +126,29 @@
 @media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
 
 #landscape {
+  z-index:100;
   position: fixed;
   visibility: visible;
-  font-size: 2em;
+  font-size: 2em !important;
   text-align: center;
   font-family: sans-serif;
   color: #fff;
   background-color: #000;
-  width: 90%;
+  width: 100%;
   height: 100%;
   padding-top: 20%;
-  padding-left: 5%;
+  padding-left: 0%;
   padding-right: 5%;
   margin: 0 auto;
   display: block;
+}
+.mobileMap {
+  visibility: hidden;
+  display:none;
+}
+.map {
+  visibility: hidden;
+  display: none;
 }
 #fullpage {
   visibility: hidden;
@@ -146,20 +163,29 @@
 @media only screen  and (min-device-width: 414px)  and (max-device-width: 736px)  and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
 
 #landscape {
+  z-index:100;
   position: fixed;
   visibility: visible;
-  font-size: 2em;
+  font-size: 2em !important;
   text-align: center;
   font-family: sans-serif;
   color: #fff;
   background-color: #000;
-  width: 90%;
+  width: 100%;
   height: 100%;
   padding-top: 20%;
-  padding-left: 5%;
+  padding-left: 0%;
   padding-right: 5%;
   margin: 0 auto;
   display: block;
+}
+.mobileMap {
+  visibility: hidden;
+  display:none;
+}
+.map {
+  visibility: hidden;
+  display: none;
 }
 #fullpage {
   visibility: hidden;
@@ -173,20 +199,29 @@
 @media screen  and (device-width: 320px)  and (device-height: 640px)  and (-webkit-device-pixel-ratio: 3)  and (orientation: landscape) {
 
 #landscape {
+  z-index:100;
   position: fixed;
   visibility: visible;
-  font-size: 2em;
+  font-size: 2em !important;
   text-align: center;
   font-family: sans-serif;
   color: #fff;
   background-color: #000;
-  width: 90%;
+  width: 100%;
   height: 100%;
   padding-top: 20%;
-  padding-left: 5%;
+  padding-left: 0%;
   padding-right: 5%;
   margin: 0 auto;
   display: block;
+}
+.mobileMap {
+  visibility: hidden;
+  display:none;
+}
+.map {
+  visibility: hidden;
+  display: none;
 }
 #fullpage {
   visibility: hidden;
@@ -198,23 +233,32 @@
 
 
 /* landscape */
-@media screen  and (device-width: 360px)  and (device-height: 640px)  and (-webkit-device-pixel-ratio: 3)  and (orientation: landscape) {
+@media screen  and (device-width: 360px)  and (device-height: 640px) and (orientation: landscape) {
 
 #landscape {
+  z-index:100;
   position: fixed;
   visibility: visible;
-  font-size: 2em;
+  font-size: 2em !important;
   text-align: center;
   font-family: sans-serif;
   color: #fff;
   background-color: #000;
-  width: 90%;
+  width: 100%;
   height: 100%;
   padding-top: 20%;
-  padding-left: 5%;
+  padding-left: 0%;
   padding-right: 5%;
   margin: 0 auto;
   display: block;
+}
+.mobileMap {
+  visibility: hidden;
+  display:none;
+}
+.map {
+  visibility: hidden;
+  display: none;
 }
 #fullpage {
   visibility: hidden;
@@ -225,23 +269,32 @@
 /* ----------- Nokia Lumia 920 ----------- */
 
 /*landscape */
-@media only screen and (max-width: 360px) and (device-height:600px) and (-webkit-device-pixel-ratio: 3) and (orientation:landscape) {
+@media only screen and (device-width: 320px) and (device-height:480px) and (orientation:landscape) {
 
 #landscape {
+  z-index:100;
   position: fixed;
   visibility: visible;
-  font-size: 2em;
+  font-size: 2em !important;
   text-align: center;
   font-family: sans-serif;
   color: #fff;
   background-color: #000;
-  width: 90%;
+  width: 100%;
   height: 100%;
   padding-top: 20%;
-  padding-left: 5%;
+  padding-left: 0%;
   padding-right: 5%;
   margin: 0 auto;
   display: block;
+}
+.mobileMap {
+  visibility: hidden;
+  display:none;
+}
+.map {
+  visibility: hidden;
+  display: none;
 }
 #fullpage {
   visibility: hidden;

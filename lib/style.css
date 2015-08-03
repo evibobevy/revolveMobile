@@ -1,4 +1,3 @@
-
 body, html{
 	margin:0;
 	padding:0;
@@ -189,13 +188,6 @@ header>#menu>li.social:hover {
 .iPhone header>#menu>li.social#twitter {
 	clear:left;
 }
-
-
-
-
-
-
-
 header>#menu>li.social#facebook {
 	background-image: url(../images/social_white/facebook.png);
 }
@@ -318,7 +310,15 @@ footer {
 	width:73%;
 	/* margin:150px 13%; */
 	margin:12% 13%;
-	min-width:430px;
+	min-width:668px;
+}
+#fullpage>.section.about>.fp-tableCell>.content {
+	position:absolute;
+	height:60%;
+	width:73%;
+	/* margin:150px 13%; */
+	margin:5% 13%;
+	min-width:668px;
 }
 .iPad #fullpage>.section>.fp-tableCell>.content {
 	width:90%;
@@ -353,10 +353,15 @@ footer {
 	margin-top:0px;
 	margin-bottom:20px;
 }
-
 #fullpage>.section>.fp-tableCell>.content>.column p {
 	font-size: 18px;
 	margin: 1% 0 3% 0;
+	padding: 0% 2%;
+	line-height: 24px;
+}
+#fullpage>.section.capabilities>.fp-tableCell>.content>.column p {
+	font-size: 18px;
+	margin: 1% 0 -4.75% 0;
 	padding: 0% 2%;
 	line-height: 24px;
 }
@@ -366,6 +371,7 @@ footer {
 .iPhone #fullpage>.section>.fp-tableCell>.content>.column p {
 	font-size: 30px;
 	line-height: 30px;
+	visibility: none;
 }
 .iPhone #fullpage>.section>.fp-tableCell>.content>.column p span {
 	display: none;
@@ -461,24 +467,6 @@ h2 {
 .about h4 {
 	visibility: hidden;
 }
-.iPhone .about h4 {
-	font-family: 'Gotham A', 'Gotham B';
-    visibility: visible;
-    position: relative;
-    left: 0;
-    margin: 0 0 10px 0;
-    font-size: 24px;
-    text-align: center;
-    width: 100%;
-    font-weight: 100;
-    line-height: 24px;
-    margin-top: 4%;
-    margin-bottom: 2%;
-}
-.iPhone .about h1 {
-	margin:0;
-	font-size: 60px;
-}
 .about p {
 	font-family: 'Gotham A', 'Gotham B'; 
 	font-weight: 200;
@@ -486,11 +474,8 @@ h2 {
 	line-height: 40px;
 	text-align: justify;
 }
-.iPhone .about p {
-	font-size: 38px;
-}
 .contact p {
-	margin: 8px 0 0px 0;
+	margin: 3px 0 0px 0;
     font-family: 'Gotham A', 'Gotham B';
     font-weight: 200;
 }
@@ -501,10 +486,6 @@ h2 {
 	font-family: 'Gotham A', 'Gotham B'; 
 	font-weight: 200;
 }
-.iPhone .contact p {
-	font-size: 38px;
-}
-
 .contact h2 {
 	margin:10px 0 0 0;
 	font-family: 'Gotham A', 'Gotham B'; 
@@ -616,12 +597,12 @@ h2 {
 
 #particles {
 	width:100%; 
-	height:100%;
+	height:auto;
 	position:absolute;
 	top:0;
 	left:0;
 	z-index:1;
-	display:none;
+	display:inline;
 }
 
 

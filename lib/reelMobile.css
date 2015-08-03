@@ -9,7 +9,7 @@
     position: relative;
     text-align: center;
     padding-bottom: 5%;
-    padding-left: 5%;
+    padding-left: 4.5%;
     padding-top: 2%
 }
 header.mobile>section.mobile>#header {
@@ -17,11 +17,122 @@ header.mobile>section.mobile>#header {
     height: 80px;
     margin: 0 auto;
     background-color: #000;
-    padding-left: 5%;
+    padding-left: 0%;
     padding-bottom: 0%;
 }
+#video {
+    width: 100%;
+    height: auto;
+    margin-top: 37%;
+    position: relative;
+    display: block;
+    background-color: #000;
+    padding-bottom: 45%;
+    padding-top: 15%;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+a>button#reel {
+    width: 50%;
+    height: auto;
+    margin-left: 1.5%; 
+    text-align: center;
+}
+#video video{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+    padding-top: 20%;
+}  
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 374px) and (orientation: portrait) {
+.reelMobile {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-top: 2%
+}
+header.mobile>section.mobile>#header {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #000;
+    padding-left: 0%;
+    padding-bottom: 0%;
+}
+#video {
+    width: 100%;
+    height: auto;
+    margin-top: 37%;
+    position: relative;
+    display: block;
+    background-color: #000;
+    padding-bottom: 45%;
+    padding-top: 15%;
+}
+a>button#reel {
+    width: 50%;
+    height: auto;
+    margin-left: 1.5%; 
+    text-align: center;
+}
+#video video{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+    padding-top: 20%;
+}  
+}
+@media only screen and (device-width: 320px) and (device-height:480px) and (orientation: portrait) {
+.reelMobile {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-top: 2%
+}
+header.mobile>section.mobile>#header {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #000;
+    padding-left: 0%;
+    padding-bottom: 0%;
+}
+#video {
+    width: 100%;
+    height: auto;
+    margin-top: 37%;
+    position: relative;
+    display: block;
+    background-color: #000;
+    padding-bottom: 45%;
+    padding-top: 15%;
+}
+a>button#reel {
+    width: 50%;
+    height: auto;
+    margin-left: 1.5%; 
+    text-align: center;
+}
+#video video{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+    padding-top: 20%;
+}  
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 #reelMobile {
 	width: 100%;
 	height:100%;
@@ -46,7 +157,7 @@ a>button#reel {
 #video {
     width: 100%;
     height: auto;
-    margin-top: 42%;
+    margin-top: 37%;
     position: relative;
     display: block;
     background-color: #000;

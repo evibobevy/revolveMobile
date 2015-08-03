@@ -4,7 +4,6 @@
     visibility: hidden;
 }
 header.white {
-    visibility: hidden;
     display: none;
 }
 header.white>.black {
@@ -45,8 +44,8 @@ header.mobile>section.mobile>#header {
     background-color: #000;
 }
 header.mobile>section.mobile>#header>img {
-    width: 50%;
-    padding-left: 6%;
+    width: 45%;
+    padding-left: 4%;
     padding-top: 4%;
 }
 header.mobile>section.mobile>#nav {
@@ -65,6 +64,10 @@ header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a>img {
 }
 header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a.facebook>img {
     width:3%;
+}
+a#facebook> img {
+    width: 3%;
+    padding-left: 10%;
 }
 header.mobile>section.mobile>.mobile_button {
     position:absolute;
@@ -97,11 +100,6 @@ header.mobile>section.mobile>.mobile_button#button4 {
     width: 90%;
     margin: 44% 5% 5% 5%;
     min-width: 90%;
-}
-.iPhone .capabilities h1, .iPhone .clients h1, .iPhone .contact h1 {
-    margin: 1% auto;
-    margin-bottom: 1%;
-    font-size: 30px;
 }
 .iPhone .about h1 {
     font-size: 24px;
@@ -134,10 +132,33 @@ header.mobile>section.mobile>.mobile_button#button4 {
     line-height: 24px;
     margin-top: 1%;
     margin-bottom: 5%;
-}    
-.iPhone .about p, .iPhone .clients p, .iPhone .contact p {
-    font-size: 18px;
+} 
+.iPhone .capabilities h1, .iPhone .clients h1, .iPhone .contact h1 {
+    margin: 5% auto;
+    margin-bottom: 1%;
+    font-size: 28px;
+}
+.iPhone .about h1 {
+    font-size: 17px;
+    margin-bottom: 0%
+}
+.iPhone .about h4 {
+    font-family: 'Gotham A', 'Gotham B';
+    visibility: visible;
+    position: relative;
+    left: 0;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
     line-height: 24px;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}  
+.iPhone .about p, .iPhone .capabilities p, .iPhone .clients p, .iPhone .contact p {
+    font-size: 17px;
+    line-height: 20px;
     margin: 0 auto;
 }
 #fullpage>.section.home>.fp-tableCell>#logo {
@@ -174,18 +195,18 @@ header.mobile>section.mobile>.mobile_button#button4 {
 }
 #fullpage>.section>.fp-tableCell>.content>.column.right {
     border-left: 0px solid black;
-    padding-left: 0%;
-    width: 100%;
-    padding-top: 6%;
+    padding-left: 5%;
+    width: 95%;
+    padding-top: 5%;
+
 }
 .iPhone #fullpage>.section>.fp-tableCell>.content>.column p {
-    font-size: 14px;
-    line-height: 60px;
+    font-size: 12px;
+    line-height: 41px;
     padding-top: 2%;
     margin: 0% 0 3% 0;
     padding: 0% 2%;
     display: inline;
-    font-family: 'Gotham A', 'Gotham B';
 
 } 
 .iPhone #fullpage>.section>.fp-tableCell>.content>.column p span {
@@ -194,21 +215,19 @@ header.mobile>section.mobile>.mobile_button#button4 {
 #fullpage>.section>.fp-tableCell>.content>.column p span {
     display: inline;
 }
-.iPhone .clients h1 {
-    margin: 3% auto;
-    margin-bottom: 1%;
-    font-size: 30px;
-}   
-
+.clients h1 {
+    position: absolute;
+    left: 0;
+    top: -80px;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}    
 .iPhone #fullpage>.section.clients>.fp-tableCell>.content {
-    width: 98%;
-    margin: 69% 2% 2% 2%;
+    width: 90%;
+    margin: 70% 5% 5% 5%;
     min-width: 90%;
-    background-image: url(../images/clients3.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-    height: 58%;
 }
 .iPhone #fullpage>.section.contact>.fp-tableCell>.content {
     width: 90%;
@@ -221,15 +240,12 @@ header.mobile>section.mobile>.mobile_button#button4 {
     font-weight: 200;
     font-size: 15px;
     display: none;
+
 }    
-.contact h5 {
-    visibility: hidden;
-    display: none;
-}
 .iPhone .contact p {
-    font-size: 13px;
-    line-height: 15px;
-    margin: 1% auto;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto;
 }
 footer {
     /* width: 91%; */
@@ -249,7 +265,6 @@ footer {
 } 
 #particles, #particle_overlay {
     display: none;
-    visibility: hidden;
 }  
 .left_column {
     float: left;
@@ -276,7 +291,7 @@ footer {
     float: right;
     clear: none;
     width: 100%;
-    height: 35%;
+    height: 30%;
     min-width: 100%;
     background-image: url(../images/map.png);
     background-repeat: no-repeat;
@@ -284,34 +299,26 @@ footer {
     background-size: cover;
     margin-top: 0px;
     cursor: pointer;
-    margin-bottom: 15px;
-}
+    margin-bottom: 5px;
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-height:640px) and (orientation : portrait) {
+  }
+@media only screen and (min-width: 360px) and (max-width:374px) and (-webkit-device-pixel-ratio: 3) and (orientation : portrait) {
 #landscape {
     display: none;
     visibility: hidden;
 }
 header.white {
-    visibility: hidden;
-    display: none;
+    display: visible;
 }
 header.white>.black {
-    display: none;
-    visibility: hidden;
-}
-header.black {
-    display: none;
-    visibility: hidden;
+    display: visible;
 }
 header.white>.logo {
-    display: none;
-    visibility: hidden;
+    display:visible
 }
 header.mobile {
     visibility: visible;
-    width:100%;
 }
 header.mobile>section.mobile {
     visibility: visible;
@@ -363,376 +370,10 @@ header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a>img {
 header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a.facebook>img {
     width:3%;
 }
-header.mobile>section.mobile>.mobile_button {
-    position:absolute;
-    top:60%;
-    left: 50%;  
-    width:30px; 
-    height:30px;    
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor:pointer;
-}
-header.mobile>section.mobile>.mobile_button#button1 {
-    margin-left: -60px;
-    background-image: url(/images/mobile_buttons/twitter.png);
-}
-header.mobile>section.mobile>.mobile_button#button2 {
-    margin-left: -30px;
-    background-image: url(/images/mobile_buttons/facebook.png);
-}
-header.mobile>section.mobile>.mobile_button#button3 {
-    margin-left: 0px;
-    background-image: url(/images/mobile_buttons/linkedin.png);
-}
-header.mobile>section.mobile>.mobile_button#button4 {
-    margin-left: 35px;
-    background-image: url(/images/mobile_buttons/youtube.png);
-}
-.iPhone #fullpage>.section>.fp-tableCell>.content {
-    width: 90%;
-    margin: 44% 5% 5% 5%;
-    min-width: 90%;
-}
-#fullpage>.section>.fp-tableCell>.content {
-    width: 90%;
-    margin: 44% 5% 5% 5%;
-    min-width: 90%;
-}
-.iPhone .capabilities h1, .iPhone .clients h1, .iPhone .contact h1 {
-    margin: 1% auto;
-    margin-bottom: 1%;
-    font-size: 30px !important;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
-.capabilities h1, .clients h1, .contact h1 {
-    margin: 1% auto;
-    margin-bottom: 1%;
-    font-size: 30px !important;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
-.iPhone .about h1 {
-    font-size: 24px;
-    margin-bottom: 1%;
-}
-.about h1 {
-    font-size: 24px;
-    margin-bottom: 1%;
-}
-.iPhone .about h4 {
-    font-family: 'Gotham A', 'Gotham B';
-    visibility: visible;
-    position: relative;
-    left: 0;
-    margin: 0 0 10px 0;
-    font-size: 30px;
-    text-align: center;
-    width: 100%;
-    font-weight: 100;
-    line-height: 24px;
-    margin-top: 1%;
-    margin-bottom: 5%;
-}  
-.about h4 {
-    font-family: 'Gotham A', 'Gotham B';
-    visibility: visible;
-    position: relative;
-    left: 0;
-    margin: 0 0 10px 0;
-    font-size: 30px;
-    text-align: center;
-    width: 100%;
-    font-weight: 100;
-    line-height: 24px;
-    margin-top: 1%;
-    margin-bottom: 5%;
-}    
-.iPhone .about p, .iPhone .clients p, .iPhone .contact p {
-    font-size: 18px !important;
-    line-height: 24px !important;
-    margin: 0 auto;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
-.about p, .clients p, .contact p {
-    font-size: 18px !important;
-    line-height: 24px !important;
-    margin: 0 auto;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
-.iPhone .capabilities p {
-    font-size: 13px !important;
-    line-height: 55px !important;
-    margin: 0 auto;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
-.capabilities p {
-    font-size: 13px !important;
-    line-height: 55px !important;
-    margin: 0 auto;
-}
-.about p {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 auto;
-}
-#fullpage>.section.home>.fp-tableCell>#logo {
-    width:50%;
-    height:50%;
-    position:absolute;
-    top:35%;
-    left:25%;
-    background-image: url(../images/revolve_logo.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size:contain;
-    display:block;
-} 
-#fullpage>.section>.fp-tableCell>.content>.column.left {
-    clear: left;
-    margin-left: 0%;
-    width: 17%;
-    padding-right: 2.5em;
-    margin-right: 0px;
-    display: none;
-}
-#fullpage>.section>.fp-tableCell>.content>.column {
-    position: relative;
-    float: left;
-    clear: none;
-    /* min-height: 219px; */
-    margin-top: 0px;
-}
-#fullpage>.section>.fp-tableCell>.content>.column h2 {
-    font-size: 15px;
-    margin-left: 2em;
-    display: none;
-}
-#fullpage>.section>.fp-tableCell>.content>.column.right {
-    border-left: 0px solid black;
-    padding-left: 0%;
-    width: 100%;
-    padding-top: 6%;
-}
-.iPhone #fullpage>.section>.fp-tableCell>.content>.column p {
-    font-size: 15px;
-    line-height: 60px;
-    padding-top: 2%;
-    margin: 0% 0 3% 0;
-    padding: 0% 2%;
-    display: inline;
-} 
-#fullpage>.section>.fp-tableCell>.content>.column p {
-    font-size: 15px;
-    line-height: 60px;
-    padding-top: 2%;
-    margin: 0% 0 3% 0;
-    padding: 0% 2%;
-    display: inline;
-} 
-.iPhone #fullpage>.section>.fp-tableCell>.content>.column p span {
-    display: inline;
-}  
-#fullpage>.section>.fp-tableCell>.content>.column p span {
-    display: inline;
-}       
-#fullpage>.section>.fp-tableCell>.content>.column p span {
-    display: inline;
-}
-.iPhone .clients h1 {
-    margin: 3% auto;
-    margin-bottom: 1%;
-    font-size: 30px !important;
-}  
-.clients h1 {
-    margin: 3% auto;
-    margin-bottom: 1%;
-    font-size: 30px !important;
-}   
-.iPhone #fullpage>.section.clients>.fp-tableCell>.content {
-    width: 98%;
-    margin: 69% 2% 2% 2%;
-    min-width: 90%;
-    background-image: url(../images/clients3.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-    height: 58%;
-}
-#fullpage>.section.clients>.fp-tableCell>.content {
-    width: 98%;
-    margin: 69% 2% 2% 2%;
-    min-width: 90%;
-    background-image: url(../images/clients3.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-    height: 58%;
-}
-.iPhone #fullpage>.section.contact>.fp-tableCell>.content {
-    width: 90%;
-    margin: 41% 5% 5% 5%;
-    min-width: 90%;
-} 
-#fullpage>.section.contact>.fp-tableCell>.content {
-    width: 90%;
-    margin: 41% 5% 5% 5%;
-    min-width: 90%;
-}    
-.contact h2 {
-    margin: 0 auto;
-    font-family: 'Gotham A', 'Gotham B';
-    font-weight: 200;
-    font-size: 15px;
-    display: none;
-
-} 
-.contact h5 {
-    visibility: hidden;
-    display: none;
-}   
-.iPhone .contact p {
-    font-size: 12px !important;
-    line-height: 15px !important;
-    margin: 1% auto;
-}
-.contact p {
-    font-size: 13px !important;
-    line-height: 15px !important;
-    margin: 1% auto;
-}
-footer {
-    /* width: 91%; */
-    min-width: 100%;
-    height: 3%;
-    position: relative;
-    top: 96%;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    z-index: 10;
-    font-size: 10px;
-    text-align: center;
-    color: #666;
-    display: block;
-    z-index: 3;
-} 
-#particles, #particle_overlay {
-    display: none;
-    visibility: hidden;
-
-}  
-.left_column {
-    float: left;
-    clear: none;
-    width: 100%;
-} 
-.contact p span{
-    visibility: visible;
-    display: inline;
-    margin:4px 0 32px 0;
-    font-family: 'Gotham A', 'Gotham B'; 
-    font-weight: 200;
-}
-.contact p {
-    margin: 0px 0 5px 0;
-}
-.map {
-    visibility: hidden;
-    display: none;
-}
-.mobileMap {
-    visibility: visible;
-    display: block;
-    float: right;
-    clear: none;
-    width: 100%;
-    height: 35%;
-    min-width: 100%;
-    background-image: url(../images/map.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin-top: 0px;
-    cursor: pointer;
-    margin-bottom: 15px;
-}   
-}
-@media only screen and (device-width: 320px) and (device-height:480px) and (orientation : portrait) {
-#landscape {
-    display: none;
-    visibility: hidden;
-}
-header.white {
-    visibility: hidden;
-    display: none;
-}
-header.white>.black {
-    display: none;
-    visibility: hidden;
-}
-header.black {
-    display: none;
-    visibility: hidden;
-}
-header.white>.logo {
-    display: none;
-    visibility: hidden;
-}
-header.mobile {
-    visibility: visible;
-    width:100%;
-}
-header.mobile>section.mobile {
-    visibility: visible;
-    position:absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-    background-image: url(/images/revolve_mobile_coming_soon.png);
-    background-position: top center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color:#fff;
-    z-index:100;
-    display:block;
-}
-.iPhone header.mobile>section.mobile {
-    display:block;
-    visibility: visible;
-}
-header.mobile>section.mobile>#header>.clear {
-    clear:both;
-}
-header.mobile>section.mobile>#header {
-    width: 100%;
-    height: 80px;
-    margin: 0 auto;
-    background-color: #000;
-}
-header.mobile>section.mobile>#header>img {
-    width: 50%;
-    padding-left: 5%;
-    padding-top: 4%;
-}
-header.mobile>section.mobile>#nav {
-    background-color: #000;
-}
-header.mobile>section.mobile>#nav>ul#mobileMenu>#social {
-    width: 100%;
-    height:100px;   
+a#facebook> img {
+    width: 3%;
     padding-left: 10%;
 }
-header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a>img {
-    height:auto;
-    width:6%;
-    padding-right: 12%;
-    padding-top: 5%
-}
-header.mobile>section.mobile>#nav>ul#mobileMenu>#social>a.facebook>img {
-    width:3%;
-}
 header.mobile>section.mobile>.mobile_button {
     position:absolute;
     top:60%;
@@ -765,30 +406,9 @@ header.mobile>section.mobile>.mobile_button#button4 {
     margin: 44% 5% 5% 5%;
     min-width: 90%;
 }
-#fullpage>.section>.fp-tableCell>.content {
-    width: 90%;
-    margin: 44% 5% 5% 5%;
-    min-width: 90%;
-}
-.iPhone .capabilities h1, .iPhone .clients h1, .iPhone .contact h1 {
-    margin: 1% auto;
-    margin-bottom: 1%;
-    font-size: 30px !important;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
-.capabilities h1, .clients h1, .contact h1 {
-    margin: 1% auto;
-    margin-bottom: 1%;
-    font-size: 30px !important;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
 .iPhone .about h1 {
     font-size: 24px;
-    margin-bottom: 1%;
-}
-.about h1 {
-    font-size: 24px;
-    margin-bottom: 1%;
+    margin-bottom: 1%
 }
 .iPhone .about h4 {
     font-family: 'Gotham A', 'Gotham B';
@@ -817,31 +437,13 @@ header.mobile>section.mobile>.mobile_button#button4 {
     line-height: 24px;
     margin-top: 1%;
     margin-bottom: 5%;
-}    
-.iPhone .about p, .iPhone .clients p, .iPhone .contact p {
-    font-size: 18px !important;
-    line-height: 24px !important;
-    margin: 0 auto;
-    font-family: 'Gotham A', 'Gotham B' !important;
+}  
+.iPhone .about h1, .iPhone .capabilities h1, .iPhone .clients h1, .iPhone .contact h1 {
+    margin: 5% auto;
+    margin-bottom: 1%;
+    font-size: 30px;
 }
-.about p, .clients p, .contact p {
-    font-size: 18px !important;
-    line-height: 24px !important;
-    margin: 0 auto;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
-.iPhone .capabilities p {
-    font-size: 13px !important;
-    line-height: 55px !important;
-    margin: 0 auto;
-    font-family: 'Gotham A', 'Gotham B' !important;
-}
-.capabilities p {
-    font-size: 13px !important;
-    line-height: 55px !important;
-    margin: 0 auto;
-}
-.about p {
+.iPhone .about p, .iPhone .capabilities p, .iPhone .clients p, .iPhone .contact p {
     font-size: 18px;
     line-height: 24px;
     margin: 0 auto;
@@ -861,7 +463,7 @@ header.mobile>section.mobile>.mobile_button#button4 {
 #fullpage>.section>.fp-tableCell>.content>.column.left {
     clear: left;
     margin-left: 0%;
-    width: 17%;
+    width: 0%;
     padding-right: 2.5em;
     margin-right: 0px;
     display: none;
@@ -880,71 +482,41 @@ header.mobile>section.mobile>.mobile_button#button4 {
 }
 #fullpage>.section>.fp-tableCell>.content>.column.right {
     border-left: 0px solid black;
-    padding-left: 0%;
-    width: 100%;
-    padding-top: 6%;
+    padding-left: 5%;
+    width: 95%;
+    padding-top: 5%;
+
 }
 .iPhone #fullpage>.section>.fp-tableCell>.content>.column p {
-    font-size: 15px;
-    line-height: 60px;
+    font-size: 12px;
+    line-height: 41px;
     padding-top: 2%;
     margin: 0% 0 3% 0;
     padding: 0% 2%;
     display: inline;
+
 } 
-#fullpage>.section>.fp-tableCell>.content>.column p {
-    font-size: 15px;
-    line-height: 60px;
-    padding-top: 2%;
-    margin: 0% 0 3% 0;
-    padding: 0% 2%;
-    display: inline;
-} 
-.iPhone #fullpage>.section>.fp-tableCell>.content>.column p span {
-    display: inline;
-}  
-#fullpage>.section>.fp-tableCell>.content>.column p span {
+.iPhone #fullpage>.section>.fp-tableCell>.content>.column p span{
     display: inline;
 }       
-#fullpage>.section>.fp-tableCell>.content>.column p span {
+#fullpage>.section>.fp-tableCell>.content>.column p span{
     display: inline;
 }
-.iPhone .clients h1 {
-    margin: 3% auto;
-    margin-bottom: 1%;
-    font-size: 30px !important;
-}  
 .clients h1 {
-    margin: 3% auto;
-    margin-bottom: 1%;
-    font-size: 30px !important;
-}   
+    position: absolute;
+    left: 0;
+    top: -80px;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}    
 .iPhone #fullpage>.section.clients>.fp-tableCell>.content {
-    width: 98%;
-    margin: 69% 2% 2% 2%;
+    width: 90%;
+    margin: 70% 5% 5% 5%;
     min-width: 90%;
-    background-image: url(../images/clients3.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-    height: 58%;
-}
-#fullpage>.section.clients>.fp-tableCell>.content {
-    width: 98%;
-    margin: 69% 2% 2% 2%;
-    min-width: 90%;
-    background-image: url(../images/clients3.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-    height: 58%;
 }
 .iPhone #fullpage>.section.contact>.fp-tableCell>.content {
-    width: 90%;
-    margin: 41% 5% 5% 5%;
-    min-width: 90%;
-} 
-#fullpage>.section.contact>.fp-tableCell>.content {
     width: 90%;
     margin: 41% 5% 5% 5%;
     min-width: 90%;
@@ -956,19 +528,10 @@ header.mobile>section.mobile>.mobile_button#button4 {
     font-size: 15px;
     display: none;
 }    
-.contact h5 {
-    visibility: hidden;
-    display: none;
-}
 .iPhone .contact p {
-    font-size: 13px !important;
-    line-height: 15px !important;
-    margin: 1% auto;
-}
-.contact p {
-    font-size: 13px !important;
-    line-height: 15px !important;
-    margin: 1% auto;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto;
 }
 footer {
     /* width: 91%; */
@@ -988,23 +551,12 @@ footer {
 } 
 #particles, #particle_overlay {
     display: none;
-    visibility: hidden;
 }  
 .left_column {
     float: left;
     clear: none;
     width: 100%;
 } 
-.contact p span{
-    visibility: visible;
-    display: inline;
-    margin:4px 0 32px 0;
-    font-family: 'Gotham A', 'Gotham B'; 
-    font-weight: 200;
-}
-.contact p {
-    margin: 0px 0 5px 0;
-}
 .map {
     visibility: hidden;
     display: none;
@@ -1015,7 +567,7 @@ footer {
     float: right;
     clear: none;
     width: 100%;
-    height: 35%;
+    height: 30%;
     min-width: 100%;
     background-image: url(../images/map.png);
     background-repeat: no-repeat;
@@ -1023,8 +575,8 @@ footer {
     background-size: cover;
     margin-top: 0px;
     cursor: pointer;
-    margin-bottom: 15px;
-}   
+    margin-bottom: 5px;
+}    
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 #landscape {
@@ -1032,7 +584,6 @@ footer {
     visibility: hidden;
 }
 header.white {
-    visibility: hidden;
 	display: none;
 }
 header.white>.black {
@@ -1043,7 +594,6 @@ header.white>.logo {
 }
 header.mobile {
     visibility: visible;
-    z-index:100;
 }
 header.mobile>section.mobile {
     visibility: visible;
@@ -1061,10 +611,8 @@ header.mobile>section.mobile {
 	display:block;
 }
 .iPhone header.mobile>section.mobile {
-    display: block;
+	display:block;
     visibility: visible;
-    width: 100%;
-    margin: 0 auto;
 }
 header.mobile>section.mobile>#header>.clear {
 	clear:both;
@@ -1154,24 +702,10 @@ header.mobile>section.mobile>.mobile_button#button4 {
     font-size: 24px;
 }
 .iPhone .clients h1 {
-    margin: 3% auto;
+    margin: 15% auto;
     margin-bottom: 1%;
     font-size: 24px;
 }
-.iPhone .about h4 {
-    font-family: 'Gotham A', 'Gotham B';
-    visibility: visible;
-    position: relative;
-    left: 0;
-    margin: 0 0 10px 0;
-    font-size: 24px;
-    text-align: center;
-    width: 100%;
-    font-weight: 100;
-    line-height: 24px;
-    margin-top: 4%;
-    margin-bottom: 1%;
-}  
 .iPhone .about p, .iPhone .capabilities p, .iPhone .clients p, .iPhone .contact p {
     font-size: 14px;
     line-height: 19px;
@@ -1231,16 +765,16 @@ header.mobile>section.mobile>.mobile_button#button4 {
 #fullpage>.section>.fp-tableCell>.content>.column p span{
 	display: inline;
 }
-.iPhone .clients h1 {
+.clients h1 {
     position: absolute;
     left: 0;
-    top: -40px;
+    top: -80px;
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
     width: 100%;
 }    
-.iPhone #fullpage>.section.clients>.fp-tableCell>.content {
+#fullpage>.section.clients>.fp-tableCell>.content {
     width: 90%;
     margin: 58% 5% 5% 5%;
     min-width: 90%;
@@ -1292,8 +826,6 @@ footer {
 } 
 #particles, #particle_overlay {
 	display: none;
-    visibility: hidden;
-
 }  
 .left_column {
     float: left;
@@ -1309,10 +841,6 @@ footer {
 }
 .contact p {
     margin: 8px 0 20px 0;
-}
-.contact h5 {
-    visibility: hidden;
-    display: none;
 }
 .map {
 	visibility: hidden;
